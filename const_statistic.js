@@ -97,14 +97,17 @@ const COLUMN_STATISTIC_CREDIT_CARD_TOP_UP = {column: 'AJ', isExpense: true};
 /** 「統計試算表」的信用卡「手續費」欄位 */
 const COLUMN_STATISTIC_CREDIT_CARD_FEE = {column: 'AK', isExpense: true};
 
+/** 「統計試算表」的信用卡「利息」欄位 */
+const COLUMN_STATISTIC_CREDIT_CARD_INTEREST = {column: 'AL', isExpense: true};
+
 /** 「統計試算表」的信用卡「回饋」欄位 */
-const COLUMN_STATISTIC_CREDIT_CARD_FEEDBACK = {column: 'AL', isExpense: true};
+const COLUMN_STATISTIC_CREDIT_CARD_FEEDBACK = {column: 'AM', isExpense: true};
 
 /** 「統計試算表」的信用卡「其他」欄位 */
-const COLUMN_STATISTIC_CREDIT_CARD_OTHER = {column: 'AM', isExpense: true};
+const COLUMN_STATISTIC_CREDIT_CARD_OTHER = {column: 'AN', isExpense: true};
 
 /** 「統計試算表」的信用卡「調整」欄位 (收支相抵) */
-const COLUMN_STATISTIC_CREDIT_CARD_ADJUST = {column: 'AN', isExpense: true};
+const COLUMN_STATISTIC_CREDIT_CARD_ADJUST = {column: 'AO', isExpense: true};
 
 /** 「統計試算表」中公式屬一般結構的欄位 */
 const COMMON_COLUMNS = [
@@ -158,6 +161,11 @@ const COMMON_CREDIT_CARD_COLUMNS = [
 /** 「統計試算表」中的信用卡「手續費」相關欄位 */
 const FEE_CREDIT_CARD_COLUMNS = [
   COLUMN_STATISTIC_CREDIT_CARD_FEE,
+];
+
+/** 「統計試算表」中的信用卡「利息」相關欄位 */
+const INTEREST_CREDIT_CARD_COLUMNS = [
+  COLUMN_STATISTIC_CREDIT_CARD_INTEREST,
 ];
 
 /** 「統計試算表」中的信用卡「回饋」相關欄位 */
