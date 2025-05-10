@@ -32,6 +32,10 @@ function refreshStatisticFormula() {
     const formula = generateFeeCreditCardFormula(column.column + '$2');
     copyFormula(column.column, formula);
   });
+  FEEDBACK_CREDIT_CARD_COLUMNS.forEach(column => {
+    const formula = generateCreditCardFeedbackFormula(column.column + '$2');
+    copyFormula(column.column, formula);
+  });
   OTHER_CREDIT_CARD_COLUMNS.forEach(column => {
     const formula = generateOtherCreditCardFormula(column.column + '$2');
     copyFormula(column.column, formula);
